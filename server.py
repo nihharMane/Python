@@ -7,7 +7,7 @@ print("client ip:",l)
 
 def change():
     new = input("Enter the new ip: ")
-    s = data.split(" ")
+    s = new.split(" ")
     l.append(s)
     print()
 
@@ -15,4 +15,5 @@ change()
 
 print("Updated configuration:")
 print("Server ip:",server_ip)
+
 print("client ip:",l)
